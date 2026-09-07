@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="shirkattack">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0B1F33"/>
+      <stop offset="1" stop-color="#153554"/>
+    </linearGradient>
+    <!-- seigaiha: the classic overlapping-fan wave motif, kept faint -->
+    <pattern id="seigaiha" width="80" height="40" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke="#F3EBDD" stroke-width="1.2" stroke-opacity="0.06">
+        <circle cx="40" cy="40" r="38"/><circle cx="40" cy="40" r="28"/><circle cx="40" cy="40" r="18"/><circle cx="40" cy="40" r="8"/>
+        <circle cx="0" cy="20" r="38"/><circle cx="0" cy="20" r="28"/><circle cx="0" cy="20" r="18"/><circle cx="0" cy="20" r="8"/>
+        <circle cx="80" cy="20" r="38"/><circle cx="80" cy="20" r="28"/><circle cx="80" cy="20" r="18"/><circle cx="80" cy="20" r="8"/>
+        <circle cx="40" cy="0" r="38"/><circle cx="40" cy="0" r="28"/><circle cx="40" cy="0" r="18"/><circle cx="40" cy="0" r="8"/>
+      </g>
+    </pattern>
+    <clipPath id="frame"><rect width="1200" height="300"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="300" fill="url(#sky)"/>
+    <rect width="1200" height="300" fill="url(#seigaiha)"/>
+
+    <!-- Fuji, far right -->
+    <path d="M1080 252 L1145 198 L1210 252 Z" fill="#1B3F6B"/>
+    <path d="M1132 211 L1145 198 L1158 211 L1152 215 L1145 209 L1138 215 Z" fill="#F3EBDD" fill-opacity="0.9"/>
+
+    <!-- distant swell -->
+    <path d="M0 236 C 120 212, 220 262, 360 236 S 640 196, 800 236 S 1080 264, 1200 226 L1200 300 L0 300 Z" fill="#1B3F6B"/>
+
+    <!-- the great wave: body -->
+    <path d="M-20 300 L-20 190 C 40 150, 110 92, 220 70 C 300 54, 372 62, 418 98 C 442 118, 452 150, 440 176
+             C 430 156, 412 140, 392 136 C 404 150, 410 168, 404 186 C 372 154, 322 150, 272 176
+             C 220 204, 160 238, 90 254 C 60 262, 30 268, -20 270 Z" fill="#2A5F8F"/>
+    <!-- foam edge along the crest -->
+    <path d="M-20 190 C 40 150, 110 92, 220 70 C 300 54, 372 62, 418 98 C 442 118, 452 150, 440 176"
+          fill="none" stroke="#F3EBDD" stroke-width="3" stroke-linecap="round"/>
+    <!-- foam hooks under the curl -->
+    <g fill="none" stroke="#F3EBDD" stroke-width="2.4" stroke-linecap="round">
+      <path d="M446 176 c -2 -12 4 -20 14 -22 c -8 6 -10 14 -8 24"/>
+      <path d="M424 150 c -3 -11 2 -19 12 -22 c -7 6 -9 14 -8 22"/>
+      <path d="M398 132 c -4 -10 0 -18 10 -21 c -6 6 -8 13 -6 21"/>
+      <path d="M366 118 c -5 -9 -2 -17 8 -20 c -6 6 -7 12 -5 20"/>
+      <path d="M330 108 c -5 -8 -3 -15 6 -18 c -5 5 -6 11 -4 18" opacity=".8"/>
+    </g>
+    <g fill="#F3EBDD">
+      <circle cx="458" cy="194" r="3.5"/><circle cx="472" cy="208" r="2.6"/><circle cx="488" cy="216" r="2"/>
+      <circle cx="296" cy="92" r="2.4"/><circle cx="262" cy="86" r="2"/><circle cx="232" cy="84" r="1.6"/>
+    </g>
+    <!-- water lines inside the wave -->
+    <g fill="none" stroke="#1B3F6B" stroke-width="2.2" stroke-linecap="round" stroke-opacity="0.9">
+      <path d="M20 230 C 90 210, 150 178, 210 140"/>
+      <path d="M70 262 C 150 236, 230 200, 300 156"/>
+      <path d="M150 278 C 230 254, 300 224, 360 184"/>
+    </g>
+
+    <!-- title block -->
+    <text x="600" y="132" font-family="Georgia, 'Iowan Old Style', 'Times New Roman', serif" font-size="66" font-weight="700" fill="#F3EBDD" letter-spacing="1">shirkattack</text>
+    <rect x="602" y="150" width="56" height="3" fill="#C9A464"/>
+    <text x="602" y="186" font-family="ui-monospace, 'SF Mono', Menlo, Consolas, monospace" font-size="17" fill="#D8CDB8" letter-spacing="1.5">APPLIED AI  ·  NLP  ·  LOCAL-FIRST LLMS  ·  3RD STRIKE</text>
+    <text x="602" y="214" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="16" fill="#7C93AE">practical language workflows, not leaderboard screenshots</text>
+  </g>
+</svg>
