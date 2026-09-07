@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="90" viewBox="0 0 1200 90">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#153554"/><stop offset="1" stop-color="#0B1F33"/></linearGradient>
+  </defs>
+  <rect width="1200" height="90" fill="url(#sky)"/>
+  <path d="M0 40 C 120 16, 220 66, 360 40 S 640 0, 800 40 S 1080 68, 1200 30 L1200 90 L0 90 Z" fill="#1B3F6B"/>
+  <path d="M0 62 C 140 40, 260 84, 420 60 S 700 30, 860 62 S 1100 84, 1200 56 L1200 90 L0 90 Z" fill="#2A5F8F"/>
+  <path d="M0 62 C 140 40, 260 84, 420 60 S 700 30, 860 62 S 1100 84, 1200 56" fill="none" stroke="#F3EBDD" stroke-width="1.5" stroke-opacity="0.8"/>
+  <text x="600" y="34" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="13" fill="#7C93AE">built on tacos and frame data</text>
+</svg>
