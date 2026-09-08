@@ -225,12 +225,4 @@ A **Scrapy** crawler that collects open-source news worldwide for downstream ana
 
 ---
 
-## <img src="assets/icons/contact.svg" width="20" align="top" alt="" /> Lore / Contact
-
-- Currently labbing **refusal hysteresis**, GEPA prompt evolution, and Akuma matchups. Not in that order.
-- PhD in public and social policy, which turns out to matter when the data is about corruption.
-- Will trade data-pipeline advice for legit taco recommendations. Al pastor preferred, but I'm open-minded.
-
-<a href="https://www.linkedin.com/in/steven-gawthorpe-b4298118/"><img src="https://img.shields.io/badge/LinkedIn-Steven%20Gawthorpe-1F4E79?style=for-the-badge&logo=linkedin&logoColor=F3EBDD&labelColor=0B1F33" alt="LinkedIn" /></a>
-
 <img src="assets/wave-footer.svg" width="100%" alt="" />
